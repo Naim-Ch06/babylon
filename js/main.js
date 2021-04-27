@@ -214,7 +214,7 @@ function createLights(scene) {
   // i.e sun light with all light rays parallels, the vector is the direction.
   let light0 = new BABYLON.DirectionalLight(
     "dir0",
-    new BABYLON.Vector3(-1, -1, 0),
+    new BABYLON.Vector3(-5, -3, 0),
     scene
   );
 }
